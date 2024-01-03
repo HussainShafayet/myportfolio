@@ -1,0 +1,20 @@
+
+/* Header.css */
+.headerContainer {
+    background: url('https://images.freeimages.com/images/large-previews/82a/frog-on-chain-link-fence-1560508.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    /*padding: 100px 0; Adjust the padding as needed*/
+  }
+  
+  .headerContent {
+    background: rgba(0, 0, 0, 0.7); /* Add an overlay to improve text readability */
+    padding: 20px;
+  }
+  
+  .headerContent h1 {
+    font-size: 36px;
+    margin-bottom: 0;
+  }
+  
+  
