@@ -5,8 +5,8 @@
       'header'
       'main'
       'footer';
-    grid-template-rows: minmax(10vh, 1fr) auto 15vh;
-    /*min-height: 100vh;*/
+    grid-template-rows: 58px auto 15vh;
+    min-height: 100vh;
   }
   
   header {
