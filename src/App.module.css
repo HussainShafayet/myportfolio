@@ -1,3 +1,25 @@
-.textColor{
-    color: aqua;
-}
+/* Layout.css */
+.mainlayout {
+    display: grid;
+    grid-template-areas:
+      'header'
+      'main'
+      'footer';
+    grid-template-rows: minmax(10vh, 1fr) auto 15vh;
+    /*min-height: 100vh;*/
+  }
+  
+  header {
+    grid-area: header;
+  }
+  
+  main {
+    grid-area: main;
+    min-height: 75vh;
+  }
+  
+  footer {
+    grid-area: footer;
+    background-color: #333;
+  }
+  

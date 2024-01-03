@@ -1,9 +1,14 @@
 import styles from './App.module.css';
+import Header from './components/header/Header';
+import MainContent from './components/maincontent/MainContent';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
-    <div>
-      <p className={styles.textColor}>Test css module</p>
+    <div className={styles.mainlayout}>
+      <Header />
+      <MainContent />
+      <Footer />
     </div>
   );
 }
