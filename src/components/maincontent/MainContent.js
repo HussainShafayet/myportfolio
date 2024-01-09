@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import About from "./About";
 import Home from "./Home";
 import NotFound from "./Not-found";
+import Resume from './Resume';
 
 const MainContent = () => {
   return (
@@ -12,7 +13,10 @@ const MainContent = () => {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
+                <Route path="/resume" element={<Resume />} />
                 {/* Add more routes for other sections */}
+
+
                 {/* not found */}
 
                 <Route path="*" element={<NotFound />} />
