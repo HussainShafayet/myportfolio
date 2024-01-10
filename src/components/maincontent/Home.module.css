@@ -1,0 +1,62 @@
+.homeContainer{
+    height:100vh;
+    width: 100%;
+    position: relative;
+}
+.homeContainer::before {
+    content: "";
+    background: url('/public/assets/images/shafayet_img.jpg') no-repeat ;
+    background-size: cover;
+    object-fit: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+    animation: lazy 2.5s ease-in-out;
+    -webkit-animation: lazy 2.5s ease-in-out;
+}
+  
+  @keyframes lazy {
+    0% {
+      opacity: 0.15;
+    } 
+    100% {
+      opacity: 0.75;
+    }
+  }
+
+.header-content {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    color: 	black;
+    text-align: center;
+    transform: translate(-50%,-50%);
+
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+}
+
+.header-subtitle {
+    font-weight: 200;
+    font-size: calc(20px + (45 - 20) * ((100vw - 300px)/ (1600 - 300)));
+    
+}
+
+ .header-title {
+    font-size: calc(40px + (120 - 40) * ((100vw - 300px)/ (1600 - 300)));
+    font-weight: 500;
+    color: inherit;
+}
+
+ .header-description {
+    letter-spacing: 5px;
+    font-weight: 500;
+    font-size: calc(12px + (19 - 12) * ((100vw - 300px)/ (1600 - 300)));
+    margin-bottom: 40px;
+}

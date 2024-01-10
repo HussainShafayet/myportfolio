@@ -16,7 +16,7 @@
   
   main {
     grid-area: main;
-    min-height: 75vh;
+    min-height: 85vh;
   }
   
   footer {

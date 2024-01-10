@@ -1,8 +1,17 @@
 import React from 'react';
+import styles from './Home.module.css';
 
 function Home(props) {
     return (
-        <div>This is home page</div>
+        <div className={styles.homeContainer}>
+            <div className={styles['header-content']}>
+                <h4 className={styles['header-subtitle']}>Hello, I am</h4>
+                <h1 className={styles['header-title']}>Shafayet Hussain</h1>
+                <h6 className={styles['header-description']}>Software Developer | Javascript | Ember</h6>
+                <button className="btn btn-primary btn-rounded"><i class="ti-printer pr-2"></i>Print Resume</button>
+                <img src=''></img>
+            </div>
+        </div>
     );
 }
 

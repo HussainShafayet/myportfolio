@@ -5,8 +5,8 @@ import Navbar from 'react-bootstrap/Navbar';
 export default function NavBar() {
   return (
     <>
-        <Navbar expand="lg" className="bg-body-tertiary" sticky="top">
-        <Navbar.Brand href="#home">
+        <Navbar expand="lg" className="bg-body-secondary sticky-top">
+        <Navbar.Brand href="/">
             <img
               alt="logo"
               src="/img/logo.svg"
@@ -23,7 +23,7 @@ export default function NavBar() {
               <Navbar.Collapse className="justify-content-start">
                 <Nav>
                   <Nav.Link href="/">Home</Nav.Link>
-                  <Nav.Link href="/About">About</Nav.Link>
+                  <Nav.Link href="/about">About</Nav.Link>
                   <Nav.Link href="/resume">Resume</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
