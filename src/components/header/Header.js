@@ -12,9 +12,7 @@ const Header = () => {
       </div>
     </div>*/}
      {/* Navbar */}
-     <div className='sticky-top'>
-        <NavBar />
-      </div>
+      <NavBar />
     </header>
   );
 };
