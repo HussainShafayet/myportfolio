@@ -60,3 +60,28 @@
     font-size: calc(12px + (19 - 12) * ((100vw - 300px)/ (1600 - 300)));
     margin-bottom: 40px;
 }
+
+.socialMedia{
+    width: 20vw;
+    min-width: 20vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+ .facebook{
+    color:  #3b5998 !important;
+}
+ .twitter{
+    color:  #55acee;
+}
+.linkedin{
+    color:  #0082ca;
+}
+.github{
+    color:  #333333;
+}
+
