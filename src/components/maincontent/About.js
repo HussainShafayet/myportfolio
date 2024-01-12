@@ -7,31 +7,28 @@ function About(props) {
         <>
             <div className={styles.aboutContainer}>
                 <div className={styles.description}>
-                    <h1 className='mb-lg-2'>Who am I ?</h1>
-                    <h5 className='mb-2'>Software developer</h5>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.sit amet, Qui deserunt consequatur fugit repellendusillo voluptas?
+                <h3 className='mb-lg-2'>Who am I ?</h3>
+                    <p className={styles.aboutP}>
+                        Hello! I'm Shafayet Hussain, a passionate and seasoned front-end developer based in Bangladesh. With over 2.5 years of experience in the software industry, I've had the privilege of working on exciting projects and contributing to the ever-evolving landscape of web development
                     </p>
                     <button className='btn btn-info rounded shadow'>Download my cv</button>
                 </div>
-                <div className={styles.info}>
-                    <h1 className='mb-lg-2'>Personal Info</h1>
-                    <ul className="mt40 info list-unstyled">
-                        <li><span>Birthdate</span> : 09/13/1996</li>
-                        <li><span>Email</span> : info@domain.com</li>
-                        <li><span>Phone</span> : + (123) 456-7890</li>
-                        <li><span>Skype</span> : John_Doe</li>
-                        <li><span>Address</span> :  12345 Fake ST NoWhere AB Country.</li>
+                <div className={styles.personalInfo}>
+                    <h3 className='mb-lg-2'>Personal Info</h3>
+                    <ul className={`mt40 ${styles.info} list-unstyled }`}>
+                        <li><span className={styles.infoSpan}>Birthdate</span> : 15/12/1997</li>
+                        <li><span className={styles.infoSpan}>Email</span> : shafayetsec09@gmail.com</li>
+                        <li><span className={styles.infoSpan}>Mobile</span> : +8801925890091</li>
+                        <li><span className={styles.infoSpan}>Skype</span> : Shafayet Hussain</li>
+                        <li><span className={styles.infoSpan}>Address</span> : Banasree, Dhaka, Bangladesh.</li>
                     </ul>
                     <SocialLink />
                 </div>
                 <div className={styles.expertise}>
-                <h1 className='mb-lg-2'>Who am I ?</h1>
-                    <h5 className='mb-2'>Software developer</h5>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.sit amet, Qui deserunt consequatur fugit repellendusillo voluptas?
+                <h3 className='mb-lg-2'>Professional Journey</h3>
+                    <p className={styles.aboutP}>
+                        I started my journey in web development by diving into the world of Ember.js and React.js, two powerful JavaScript frameworks and liabrary that have shaped my understanding of modern web applications. My time at Algorithm Generation Ltd has been a rewarding experience, allowing me to grow both professionally and technically.
                     </p>
-                    <button className='btn btn-info rounded shadow'>Download my cv</button>
                 </div>
             </div>
         </>

@@ -2,17 +2,32 @@
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .description{
     padding: 30px;
 }
-.info{
+.personalInfo{
     padding: 30px;
+}
+.info {
+    color: #6c757d !important;
+    font-size: 14px !important;
+}
+.infoSpan{
+    font-weight: 600;
+    font-size: 14px;
+    color: #343a40;
 }
 .expertise{
     padding: 30px;
+}
+
+.aboutP {
+    font-size: calc(13px + (14 - 13) * ((100vw - 300px)/ (1300 - 300)));
+    opacity: .8;
+    color: #444;
 }
 
 @media (max-width: 768px) {
