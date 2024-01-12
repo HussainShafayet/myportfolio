@@ -1,7 +1,6 @@
 // MainContent.js
 import React from 'react';
 import About from "./About";
-import Home from "./Home";
 import Resume from './Resume';
 import NavBar from '../header/Navbar';
 
