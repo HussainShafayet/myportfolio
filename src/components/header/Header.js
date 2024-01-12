@@ -1,17 +1,14 @@
 // Header.js
 import React from 'react';
-import NavBar from '../header/Navbar';
+import Home from '../maincontent/Home';
 
-const Header = () => {
+const Header = (props) => {
+  let {homeRef} = props;
   return (
     <header>
-    {/*<div className={styles.headerContainer}>
-      <div className={styles.headerContent}>
-        <h1>Welcome to Your Portfolio</h1>
-      </div>
-    </div>*/}
-     {/* Navbar */}
-      <NavBar />
+     <section ref={homeRef} className="section">
+        <Home />
+      </section>
     </header>
   );
 };

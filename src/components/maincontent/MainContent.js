@@ -1,27 +1,22 @@
 // MainContent.js
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import About from "./About";
 import Home from "./Home";
-import NotFound from "./Not-found";
 import Resume from './Resume';
+import NavBar from '../header/Navbar';
 
-const MainContent = () => {
+const MainContent = (props) => {
+  const { refData, scrollToSection} = props;
   return (
     <main>
-        <Router>
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/resume" element={<Resume />} />
-                {/* Add more routes for other sections */}
-
-
-                {/* not found */}
-
-                <Route path="*" element={<NotFound />} />
-            </Routes>
-        </Router>
+      <NavBar refData={refData} scrollToSection = {scrollToSection} />
+     
+      <section ref={refData.aboutRef} className="section">
+        <About />
+      </section>
+      <section ref={refData.resumeRef} className="section">
+        <Resume />
+      </section>
       {/* Add more sections as needed */}
     </main>
   );

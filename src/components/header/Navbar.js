@@ -2,7 +2,8 @@ import React from 'react';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
-export default function NavBar() {
+export default function NavBar(props) {
+  const { refData, scrollToSection} = props;
   return (
     <>
         <Navbar expand="lg" className="bg-body-secondary sticky-top">
@@ -22,9 +23,9 @@ export default function NavBar() {
               {/* Left-aligned items */}
               <Navbar.Collapse className="justify-content-start">
                 <Nav>
-                  <Nav.Link href="/">Home</Nav.Link>
-                  <Nav.Link href="/about">About</Nav.Link>
-                  <Nav.Link href="/resume">Resume</Nav.Link>
+                  <Nav.Link href='#home' onClick={() => scrollToSection(refData.homeRef)}>Home</Nav.Link>
+                  <Nav.Link href='#about' onClick={() => scrollToSection(refData.aboutRef)}>About</Nav.Link>
+                  <Nav.Link href='#resume' onClick={() => scrollToSection(refData.resumeRef)}>Resume</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
 
