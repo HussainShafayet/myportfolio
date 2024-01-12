@@ -51,8 +51,56 @@ export default function Resume() {
             </div>
           </div>
         </div>
-        <div className={`${styles.skill}`}>skill</div>
-        <div className={`${styles.language}`}>language</div>
+        <div className={`${styles.skill}`}>
+          <div className="card">
+            <div className="card-header">
+              <div className="pull-left">
+                <h4 className="mt-2">Skills</h4>
+                <span className="line"></span></div>
+            </div>
+            <div className="card-body pb-2">
+              <h6>Javascript</h6>
+              <div className={`${styles.progressBarHeight} progress mb-1`}>
+                <div className="progress-bar bg-info" role="progressbar" style={{width:"97%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <h6>Ember</h6>
+              <div  className={`${styles.progressBarHeight} progress mb-1`}>
+                <div className="progress-bar bg-info" role="progressbar" style={{width:"85%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <h6>React</h6>
+              <div  className={`${styles.progressBarHeight} progress mb-1`}>
+                <div className="progress-bar bg-info" role="progressbar" style={{width:"80%"}} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <h6>Python</h6>
+              <div  className={`${styles.progressBarHeight} progress mb-1`}>
+                <div className="progress-bar bg-info" role="progressbar" style={{width:"60%"}} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <h6>Django</h6>
+              <div  className={`${styles.progressBarHeight} progress mb-1`}>
+                <div className="progress-bar bg-info" role="progressbar" style={{width:"50%"}} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className={`${styles.language}`}>
+          <div className="card">
+            <div className="card-header">
+              <div className="pull-left">
+                <h4 className="mt-2">Language</h4>
+                <span className="line"></span></div>
+            </div>
+            <div className="card-body pb-2">
+              <h6>English</h6>
+              <div  className={`${styles.progressBarHeight} progress mb-1`}>
+                <div className="progress-bar bg-info" role="progressbar" style={{width:"70%"}} aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <h6>Bangla</h6>
+              <div  className={`${styles.progressBarHeight} progress mb-1`}>
+                <div className="progress-bar bg-info" role="progressbar" style={{width:"100%"}} aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   )

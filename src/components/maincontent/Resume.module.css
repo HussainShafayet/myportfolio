@@ -2,7 +2,7 @@
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, auto);
+    grid-template-rows: repeat(2, 1fr);
     gap: 1rem;
     padding: 10px;
 
@@ -30,12 +30,10 @@
 }
 
 .skill{
-    border: 1px solid green;
     grid-column: span 1;
     grid-row: span 1;
 }
 .language{
-    border: 1px solid greenyellow;
     grid-column: span 1;
     grid-row: span 1;
 }
@@ -48,4 +46,12 @@
     font-size: calc(13px + (14 - 13) * ((100vw - 300px)/ (1300 - 300)));
     opacity: .8;
     color: #444;
+}
+
+.progressBarHeight{
+    height: 10px;
+}
+
+.resumeContainer .card{
+    height: 100%;
 }
