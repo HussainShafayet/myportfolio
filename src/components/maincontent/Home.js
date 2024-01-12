@@ -6,7 +6,7 @@ function Home(props) {
     return (
         <div className={styles.homeContainer}>
         
-            <SocialLink socialMediaClass={styles.socialMedia} />
+            <SocialLink customMediaClass={styles.socialMedia} />
 
             <div className={styles['header-content']}>
                 <h4 className={styles['header-subtitle']}>Hello, I am</h4>

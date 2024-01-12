@@ -1,4 +1,13 @@
- .facebook{
+.socialMedia{
+    /*width: 20vw;*/
+    /*min-width: 20vw;*/
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.facebook{
     color:  #3b5998 !important;
 }
  .twitter{

@@ -20,10 +20,10 @@ const socialMediaIcons = {
   };
 
 export default function SocialLink(props) {
-    let {socialMediaClass} = props;
+    let {customMediaClass} = props;
   return (
     <>
-        <div className={`${socialMediaClass}`}>
+        <div className={`${styles.socialMedia} ${customMediaClass}`}>
             {socialMediaOrder.map((platform) => (
                 <a key={platform} className={styles[platform]} href={socialMediaLinks[platform]} target="_blank" rel="noopener noreferrer">
                     <FontAwesomeIcon icon={socialMediaIcons[platform]} size='2x' />
