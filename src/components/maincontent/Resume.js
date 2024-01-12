@@ -16,15 +16,15 @@ export default function Resume() {
             <div className="card-body">
               <h6 className="title text-info">Software Developer | Algorithm Generation</h6>
               <p>Dec 2022 - Present</p>
-              <p className="subtitle">🚀 One-year journey as a Software Developer at Algorithm Generation Ltd., specializing in Ember.js wizardry. Crafted sleek and scalable web applications that brought ideas to life.</p>
+              <p className="subtitle">🚀 Crafted scalable web solutions as a Software Developer for 1 year at Algorithm Generation Ltd., specializing in Ember.js</p>
               <hr />
               <h6 className="title text-info">Junior Developer | Algorithm Generation</h6>
               <p>Dec 2021 - Nov 2022</p>
-              <p className="subtitle">💡 Spent a dynamic year as a Junior Developer at Algorithm Generation Ltd., coding and collaborating on projects that fueled innovation and growth.</p>
+              <p className="subtitle">💡 For a year, I dived into coding and collaborative projects as a Junior Developer at Algorithm Generation Ltd.</p>
               <hr />
               <h6 className="title text-info">Apprenticeship | Algorithm Generation</h6>
               <p>Jun 2021 - Nov 2021</p>
-              <p className="subtitle">🛠️ Navigated a transformative 6-month apprenticeship in software development, gaining hands-on experience and contributing to the heartbeat of real-world projects.</p>
+              <p className="subtitle">🛠️ Completed a dynamic 6-month apprenticeship, gaining hands-on experience in real-world software projects.</p>
             </div>
           </div>
         </div>
@@ -37,17 +37,17 @@ export default function Resume() {
             </div>
             </div>
             <div className="card-body">
-              <h6 className="title text-danger">2017 - Present</h6>
-              <p>B.E Computer Engineering</p>
-              <p className="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error corrupti recusandae obcaecati odit repellat ducimus cum, minus tempora aperiam at.</p>
+              <h6 className="title text-info">Sylhet Engineering College</h6>
+              <p>BSc in Computer Science and Engineering</p>
+              <p className="subtitle">🎓 Graduated with a BSc in Computer Science and Engineering, honing skills and embracing the world of technology</p>
               <hr />
-              <h6 className="title text-danger">2016 - 2017</h6>
-              <p>Diploma in Computer Engineering</p>
-              <p className="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, id officiis quas placeat quia voluptas dolorum rem animi nostrum quae.aliquid repudiandae saepe!.</p>
+              <h6 className="title text-info">Sylhet Commerce College</h6>
+              <p>HSC</p>
+              <p className="subtitle">📘 Completed Higher Secondary education at Sylhet Commerce College, cultivating a passion for science.</p>
               <hr />
-              <h6 className="title text-danger">2015 - 2016</h6>
-              <p>High School Degree</p>
-              <p className="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum recusandae, cupiditate ullam dolor ratione repellendus.aliquid repudiandae saepe!.</p>
+              <h6 className="title text-info">Jahangirpur T Amin Pilot Govt High School</h6>
+              <p>SSC</p>
+              <p className="subtitle">📘 Completed Secondary School education at Jahangirpur T Amin Pilot Govt High School, laying the foundation for my educational journey.</p>
             </div>
           </div>
         </div>
