@@ -5,7 +5,8 @@
 }
 .homeContainer::before {
     content: "";
-    background: url('/public/assets/images/shafayet_img.jpg') no-repeat ;
+    background: url('/public/assets/images/shafayet_img.jpg') no-repeat center center fixed ;
+    overflow: hidden;
     background-size: cover;
     object-fit: cover;
     position: absolute;
