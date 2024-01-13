@@ -15,6 +15,7 @@ function App() {
     aboutRef:aboutRef,
     resumeRef:resumeRef,
     projectsRef:projectsRef,
+    projectsRef:projectsRef,
     contactRef:contactRef,
   }
 

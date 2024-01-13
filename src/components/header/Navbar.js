@@ -39,7 +39,7 @@ export default function NavBar(props) {
               {/* Right-aligned items */}
               <Navbar.Collapse className="justify-content-end">
                 <Nav>
-                  <Nav.Link href="/portfolio">Portfolio</Nav.Link>
+                <Nav.Link href='#projects' onClick={() => scrollToSection(refData.projectsRef)}>Projects</Nav.Link>
                   <Nav.Link href="/blog">Blog</Nav.Link>
                   <Nav.Link href='#contact' onClick={() => scrollToSection(refData.contactRef)}>Contact</Nav.Link>
                 </Nav>

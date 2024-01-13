@@ -3,6 +3,7 @@ import React from 'react';
 import About from "./About";
 import Resume from './Resume';
 import NavBar from '../header/Navbar';
+import Projects from './Projects';
 import Contact from './Contact';
 
 const MainContent = (props) => {
@@ -16,6 +17,9 @@ const MainContent = (props) => {
       </section>
       <section ref={refData.resumeRef} className="section  mb-lg-5">
         <Resume />
+      </section>
+      <section ref={refData.projectsRef} className="section mb-lg-5">
+        <Projects />
       </section>
       <section ref={refData.contactRef} className="section mb-lg-5">
         <Contact />

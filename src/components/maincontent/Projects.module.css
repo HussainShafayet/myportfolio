@@ -1,0 +1,25 @@
+/* Projects.css */
+
+.projects-section {
+    padding: 10px ;
+}
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 992px) {
+    .projects-section {
+      padding: 10;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .projects-section {
+      padding: 10px;
+    }
+  }
+  
