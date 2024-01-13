@@ -1,0 +1,36 @@
+.contactContainer{
+    width: 100%;
+    min-height: 450px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+
+    @media (max-width: 768px) {
+        grid-template-columns: 1fr;
+    }
+}
+.map{
+    /*padding: 10px;*/
+}
+.email{
+    /*padding: 10px;*/
+    /*position: relative;*/
+}
+
+.contact .contact-form-card {
+    padding: 35px;
+    background: #fff;
+    /*min-height: 500px;*/
+    border: 1px solid red;
+}
+@media (max-width: 991.98px){
+    .contact .contact-form-card {
+        min-height: auto!important;
+    }
+}
+
+@media (max-width: 991.98px){
+    .contact .contact-form-card {
+        border-bottom: 1px solid #dee2e6;
+    }
+}
