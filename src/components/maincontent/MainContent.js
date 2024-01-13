@@ -11,13 +11,13 @@ const MainContent = (props) => {
     <main>
       <NavBar refData={refData} scrollToSection = {scrollToSection} />
      
-      <section ref={refData.aboutRef} className="section">
+      <section ref={refData.aboutRef} className="section  mb-lg-5">
         <About />
       </section>
-      <section ref={refData.resumeRef} className="section">
+      <section ref={refData.resumeRef} className="section  mb-lg-5">
         <Resume />
       </section>
-      <section ref={refData.contactRef} className="section">
+      <section ref={refData.contactRef} className="section mb-lg-5">
         <Contact />
       </section>
       {/* Add more sections as needed */}
