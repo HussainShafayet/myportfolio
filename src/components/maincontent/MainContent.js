@@ -3,6 +3,7 @@ import React from 'react';
 import About from "./About";
 import Resume from './Resume';
 import NavBar from '../header/Navbar';
+import Contact from './Contact';
 
 const MainContent = (props) => {
   const { refData, scrollToSection} = props;
@@ -15,6 +16,9 @@ const MainContent = (props) => {
       </section>
       <section ref={refData.resumeRef} className="section">
         <Resume />
+      </section>
+      <section ref={refData.contactRef} className="section">
+        <Contact />
       </section>
       {/* Add more sections as needed */}
     </main>

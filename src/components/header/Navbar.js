@@ -41,7 +41,7 @@ export default function NavBar(props) {
                 <Nav>
                   <Nav.Link href="/portfolio">Portfolio</Nav.Link>
                   <Nav.Link href="/blog">Blog</Nav.Link>
-                  <Nav.Link href="/contact">Contact</Nav.Link>
+                  <Nav.Link href='#contact' onClick={() => scrollToSection(refData.contactRef)}>Contact</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
             </Navbar.Collapse>
