@@ -5,25 +5,25 @@ import styles from './Projects.module.css'
 const projects = [
     {
       id: 1,
-      title: 'Project 1',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      imageUrl: 'https://images.freeimages.com/images/large-previews/82a/frog-on-chain-link-fence-1560508.jpg',
-      link: 'https://example.com/project1',
+      title: 'Image Gallery',
+      description: 'Simplify image management – upload, delete, and sort effortlessly for an organized gallery.',
+      image: 'image_gallery.png',
+      link: 'https://hussainshafayet.github.io/image-gallery',
     },
     {
       id: 2,
-      title: 'Project 2',
-      description: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      imageUrl: 'https://images.freeimages.com/images/large-previews/82a/frog-on-chain-link-fence-1560508.jpg',
-      link: 'https://example.com/project2',
+      title: 'Image Gallery',
+      description: 'Simplify image management – upload, delete, and sort effortlessly for an organized gallery.',
+      image: 'image_gallery.png',
+      link: 'https://hussainshafayet.github.io/image-gallery',
     },
     {
-        id: 3,
-        title: 'Project 3',
-        description: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-        imageUrl: 'https://images.freeimages.com/images/large-previews/82a/frog-on-chain-link-fence-1560508.jpg',
-        link: 'https://example.com/project2',
-      },
+      id: 3,
+      title: 'Image Gallery',
+      description: 'Simplify image management – upload, delete, and sort effortlessly for an organized gallery.',
+      image: 'image_gallery.png',
+      link: 'https://hussainshafayet.github.io/image-gallery',
+    },
     // Add more project data as needed
   ];
 export default function Projects() {
