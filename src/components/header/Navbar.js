@@ -32,7 +32,7 @@ export default function NavBar(props) {
               {/* Centered item */}
               <Navbar.Collapse className="justify-content-center">
                 <Nav>
-                  <Nav.Link href="#about">Center Item</Nav.Link>
+                  <Nav.Link href="#about">Center image</Nav.Link>
                 </Nav>
               </Navbar.Collapse>
 
