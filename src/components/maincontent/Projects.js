@@ -17,6 +17,7 @@ const projects = [
       image: 'todo_app.png',
       link: 'https://hussainshafayet.github.io/todo-app/',
     },
+    
     // Add more project data as needed
   ];
 export default function Projects() {
