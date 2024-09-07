@@ -63,18 +63,18 @@ export default function Resume() {
               <div className={`${styles.progressBarHeight} progress mb-1`}>
                 <div className="progress-bar bg-info" role="progressbar" style={{width:"97%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
-              <h6>Ember</h6>
-              <div  className={`${styles.progressBarHeight} progress mb-1`}>
-                <div className="progress-bar bg-info" role="progressbar" style={{width:"85%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
               <h6>React</h6>
+              <div  className={`${styles.progressBarHeight} progress mb-1`}>
+                <div className="progress-bar bg-info" role="progressbar" style={{width:"90%"}} aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+              <h6>Ember</h6>
               <div  className={`${styles.progressBarHeight} progress mb-1`}>
                 <div className="progress-bar bg-info" role="progressbar" style={{width:"80%"}} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
               </div>
-              <h6>Python</h6>
+              {/*<h6>Javascript</h6>
               <div  className={`${styles.progressBarHeight} progress mb-1`}>
                 <div className="progress-bar bg-info" role="progressbar" style={{width:"60%"}} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
+              </div>*/}
               <h6>Django</h6>
               <div  className={`${styles.progressBarHeight} progress mb-1`}>
                 <div className="progress-bar bg-info" role="progressbar" style={{width:"50%"}} aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
