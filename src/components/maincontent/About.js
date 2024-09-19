@@ -11,7 +11,17 @@ function About(props) {
                     <p className={styles.aboutP}>
                         Hello! I'm Shafayet Hussain, a passionate and seasoned front-end developer based in Bangladesh. With over 3.5 years of experience in the software industry, I've had the privilege of working on exciting projects and contributing to the ever-evolving landscape of web development
                     </p>
-                    <button className='btn btn-info rounded shadow'>Download my cv</button>
+                    <a
+                        href={`${process.env.PUBLIC_URL}/shafayet_s_Resume.pdf`}
+                        download="shafayet's_Resume.pdf"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="download-button"
+                    >
+                        <button className="btn btn-info rounded shadow">
+                        Download Resume
+                        </button>
+                    </a>
                 </div>
                 <div className={styles.personalInfo}>
                     <h3 className='mb-lg-2'>Personal Info</h3>

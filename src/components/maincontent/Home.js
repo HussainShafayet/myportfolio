@@ -12,7 +12,17 @@ function Home(props) {
                 <h4 className={styles['header-subtitle']}>Hello, I am</h4>
                 <h1 className={styles['header-title']}>Shafayet Hussain</h1>
                 <h6 className={styles['header-description']}>Software Developer | Javascript | Ember | React</h6>
-                <button className="btn btn-primary btn-rounded"><i className="ti-printer pr-2"></i>Print Resume</button>
+                <a
+                    href={`${process.env.PUBLIC_URL}/shafayet_s_Resume.pdf`}
+                    download="shafayet's_Resume.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="download-button"
+                >
+                    <button className="btn btn-info rounded shadow">
+                    Download Resume
+                    </button>
+                </a>
             </div>
         </div>
     );
