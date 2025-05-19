@@ -23,22 +23,27 @@ export default function NavBar(props) {
               {/* Left-aligned items */}
               <Navbar.Collapse className="justify-content-start">
                 <Nav>
-                  <Nav.Link href='#home' onClick={() => scrollToSection(refData.homeRef)}>Home</Nav.Link>
+                  {/*<Nav.Link href='#home' onClick={() => scrollToSection(refData.homeRef)}>Home</Nav.Link>
                   <Nav.Link href='#about' onClick={() => scrollToSection(refData.aboutRef)}>About</Nav.Link>
-                  <Nav.Link href='#resume' onClick={() => scrollToSection(refData.resumeRef)}>Resume</Nav.Link>
+                  <Nav.Link href='#resume' onClick={() => scrollToSection(refData.resumeRef)}>Resume</Nav.Link>*/}
                 </Nav>
               </Navbar.Collapse>
 
               {/* Centered item */}
-              <Navbar.Collapse className="justify-content-center">
+              {/*<Navbar.Collapse className="justify-content-center">
                 <Nav>
-                  <Nav.Link href="#about">Center image</Nav.Link>
+                  <Nav.Link href="#about">
+                    <img src={`${process.env.PUBLIC_URL}/shafayet_s_Resume.pdf`} />
+                  </Nav.Link>
                 </Nav>
-              </Navbar.Collapse>
+              </Navbar.Collapse>*/}
 
               {/* Right-aligned items */}
               <Navbar.Collapse className="justify-content-end">
                 <Nav>
+                <Nav.Link href='#home' onClick={() => scrollToSection(refData.homeRef)}>Home</Nav.Link>
+                  <Nav.Link href='#about' onClick={() => scrollToSection(refData.aboutRef)}>About</Nav.Link>
+                  <Nav.Link href='#resume' onClick={() => scrollToSection(refData.resumeRef)}>Resume</Nav.Link>
                 <Nav.Link href='#projects' onClick={() => scrollToSection(refData.projectsRef)}>Projects</Nav.Link>
                   <Nav.Link href="#blog">Blog</Nav.Link>
                   <Nav.Link href='#contact' onClick={() => scrollToSection(refData.contactRef)}>Contact</Nav.Link>
