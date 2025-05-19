@@ -3,6 +3,15 @@ import ProjectCard from './ProjectCard';
 import styles from './Projects.module.css'
 
 const projects = [
+   {
+      id: 0,
+      title: 'GoCart',
+      description: `Built a modern and responsive e-commerce platform using React, featuring dynamic product listings, shop-
+      ping cart functionality, and seamless user experience. Integrated with APIs for real-time data handling and optimized
+        for performance and accessibility`,
+      image: 'GoCart.png',
+      link: 'https://drive.google.com/file/d/1jOW66tm644Ccgdb7saQOlccDAQQSlNLn/view',
+    },
     {
       id: 1,
       title: 'Image Gallery',
